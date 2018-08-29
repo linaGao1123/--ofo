@@ -1,0 +1,79 @@
+/* pages/warn/warn.wxss */
+.container {
+  width: 100%;
+  background-color: #f2f2f2;
+  }
+  .title {
+    padding: 30rpx 0rpx 30rpx 40rpx;
+    font-size: 26rpx;
+    background-color: #f2f2f2;
+  }
+  .choose {
+    background-color: #fff;
+  }
+  .choose .grids {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50rpx;
+  }
+  .grids .grid {
+    width: 45%;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    border: 1px solid #b9dd08;
+    margin-top: 40rpx;
+    border-radius: 6px;
+  }
+  .grids:nth-of-type(1),.grids:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .action-pic {
+    background-color: #fff;
+    padding: 30rpx 0 30rpx 80rpx;
+  }
+  .action-pic image {
+    height: 120rpx;
+    width: 120rpx;
+    margin-right: 40rpx;
+    position: relative;
+    overflow: visible;
+    vertical-align: top;
+    margin-bottom: 20rpx;
+  }
+  .action-pic .del {
+    position: absolute;
+    right: -10rpx;
+    top:-10rpx;
+  }
+  .add {
+    height: 120rpx;
+    width:120rpx;
+    border: 1px dotted #ccc;
+    display: inline-block;
+    font-size: 26rpx;
+    color: #ccc;
+    text-align: center;
+    line-height: 120rpx;
+  }
+  .action-input {
+    background-color: #fff;
+    padding: 30rpx 0rpx 30rpx 40rpx;
+    margin-top: 30rpx;
+  }
+  .action-input input {
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    width: 90%;
+  }
+  .action-input input:nth-of-type(1) {
+    border-bottom: 1px solid #ccc;
+  }
+  .action-sub {
+    background-color: #f2f2f2;
+    padding: 30rpx 40rpx;
+  }
+  .action-sub button {
+    background-color: #b9dd08;
+  }

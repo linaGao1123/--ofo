@@ -1,0 +1,12 @@
+<!--pages/mine/mine.wxml-->
+<view class='container'>
+<view class='useInfo'>
+<block wx-if='{{userInfo.img}}'>
+<image src='{{userInfo.img}}'></image></block>
+<view>{{userInfo.nickName}}</view>
+</view>
+<block wx-if='{{userInfo.img}}'>
+<view class='wallet'>
+<view bindtap='myWallet'>我的钱包</view><view>></view></view></block>
+<button bindtap='bindtap' type='{{btnType}}' open-type='getUserInfo'>{{actionText}}</button>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages" :[
+    "pages/index/index",
+    "pages/scanCode/scanCode",
+    "pages/billing/billing",
+    "pages/warn/warn",
+    "pages/mine/mine",
+    "pages/wallet/wallet",
+    "pages/charge/charge"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "light",
+    "navigationBarTitleText": "ofo",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

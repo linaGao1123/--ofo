@@ -1,0 +1,19 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='container'>
+<view class='money'>
+<view class='money-header'>我的余额</view>
+<view class='money-content'>{{money}}</view>
+<view class='money-desc'><text>余额说明</text></view>
+</view>
+<button bindtap='charge'>充值</button>
+<view class='my-ticket only'>
+<view>我的用车卷</view>
+<view>0张></view></view>
+<view class='my-yajin only'>
+<view>我的押金</view>
+<view>99元></view>
+</view>
+<view class='about only'>
+<view>关于ofo</view>
+<view>></view></view>
+</view>
